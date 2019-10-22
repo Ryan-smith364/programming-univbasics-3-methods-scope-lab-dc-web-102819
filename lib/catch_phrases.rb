@@ -1,4 +1,4 @@
-the_roll = "Do A Barrel Roll!"
+the_roll = "Do A Barrel Roll!\n"
 
 def mario
   phrase = "It's-a me, Mario!"
@@ -11,14 +11,8 @@ def toadstool
   puts status
 end
 
-def link 
+def link(phrase)
   status = "It's Dangerous To Go Alone! Take This."
   puts status
 end
 
-def fox (phrase)
-  status = phrase
-  puts status
-end
-
-fox(the_roll)
