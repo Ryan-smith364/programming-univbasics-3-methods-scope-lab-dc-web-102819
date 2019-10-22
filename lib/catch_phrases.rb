@@ -16,7 +16,9 @@ def link
   puts status
 end
 
-def fox (the_roll)
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+def fox (phrase)
+  status = phrase
   puts status
 end
+
+fox(the_roll)
