@@ -14,5 +14,7 @@ end
 def link(phrase)
   status = "It's Dangerous To Go Alone! Take This."
   puts status
+  puts phrase
 end
 
+link(the_roll)
